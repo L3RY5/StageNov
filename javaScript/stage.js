@@ -15,7 +15,6 @@ $(document).ready(function () {
     });
     /*scrool animatie , scrol vertragen*/
 
-<<<<<<< HEAD
    
     
 var fileInput = document.getElementById("csv"),
@@ -34,10 +33,6 @@ var fileInput = document.getElementById("csv"),
     
 
 //fileInput.addEventListener('change', readFile);
-=======
-
-    var fileInput = document.getElementById("csv"),
->>>>>>> 94007b2e496a85ec04b39c280aca2721359de764
 
         readFile = function () {
             var reader = new FileReader();
