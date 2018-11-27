@@ -15,7 +15,6 @@ $(document).ready(function () {
     });
     /*scrool animatie , scrol vertragen*/
 
-<<<<<<< HEAD
    
     
 var fileInput = document.getElementById("csv"),
@@ -34,10 +33,6 @@ var fileInput = document.getElementById("csv"),
     
 
 //fileInput.addEventListener('change', readFile);
-=======
-
-    var fileInput = document.getElementById("csv"),
->>>>>>> 3c406bbed68e3bbddfb30ab32ac5277f05b1a103
 
         readFile = function () {
             var reader = new FileReader();
@@ -65,9 +60,6 @@ var fileInput = document.getElementById("csv"),
 
 
 });
-<<<<<<< HEAD
 function myPrintjob() {
-        window.print();
-}
-=======
->>>>>>> 3c406bbed68e3bbddfb30ab32ac5277f05b1a103
+    window.print();
+ }
