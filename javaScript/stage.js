@@ -21,7 +21,7 @@ $(document).ready(function () {
         readFile = function () {
             var reader = new FileReader();
             reader.onload = function () {
-                document.getElementById('out').innerHTML = reader.result;
+                //document.getElementById('out').innerHTML = reader.result;
 
 
 
