@@ -21,7 +21,7 @@ GO
 
 CREATE DATABASE stageProducten
 GO
-USE DD4StudentEnvironement
+USE stageProducten
 PRINT 'Databank werd aangemaakt'
 GO
 
