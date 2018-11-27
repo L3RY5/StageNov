@@ -16,7 +16,8 @@ $(document).ready(function () {
     });
     /*scrool animatie , scrol vertragen*/
 
-
+   
+    
 var fileInput = document.getElementById("csv"),
 
     readFile = function () {
@@ -30,6 +31,7 @@ var fileInput = document.getElementById("csv"),
         
         reader.readAsBinaryString(fileInput.files[0]);
     };
+    
 
 //fileInput.addEventListener('change', readFile);
 
@@ -44,3 +46,6 @@ var fileInput = document.getElementById("csv"),
 
 
 });
+function myPrintjob() {
+        window.print();
+}
