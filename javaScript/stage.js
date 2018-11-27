@@ -15,29 +15,8 @@ $(document).ready(function () {
     });
     /*scrool animatie , scrol vertragen*/
 
-<<<<<<< HEAD
-   
-    
-var fileInput = document.getElementById("csv"),
-
-    readFile = function () {
-        var reader = new FileReader();
-        reader.onload = function () {
-            document.getElementById('out').innerHTML = reader.result;
-        };
-
-        // start reading the file. When it is done, calls the onload event defined above.
-        var alltetline = [];
-        
-        reader.readAsBinaryString(fileInput.files[0]);
-    };
-    
-
-//fileInput.addEventListener('change', readFile);
-=======
 
     var fileInput = document.getElementById("csv"),
->>>>>>> 3c406bbed68e3bbddfb30ab32ac5277f05b1a103
 
         readFile = function () {
             var reader = new FileReader();
@@ -65,9 +44,6 @@ var fileInput = document.getElementById("csv"),
 
 
 });
-<<<<<<< HEAD
-function myPrintjob() {
-        window.print();
+    function myPrintjob() {
+   window.print();
 }
-=======
->>>>>>> 3c406bbed68e3bbddfb30ab32ac5277f05b1a103
